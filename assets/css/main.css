@@ -99,11 +99,10 @@ input, select, textarea {
 
 	body {
 		/*background: #312450;*/
-		background: rgb(255,73,73);
-background: -moz-linear-gradient(180deg, rgba(255,73,73,1) 0%, rgba(255,183,48,1) 46%, rgba(157,0,255,1) 100%);
-background: -webkit-linear-gradient(180deg, rgba(255,73,73,1) 0%, rgba(255,183,48,1) 46%, rgba(157,0,255,1) 100%);
-background: linear-gradient(180deg, rgba(255,73,73,1) 0%, rgba(255,183,48,1) 46%, rgba(157,0,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff4949",endColorstr="#9d00ff",GradientType=1);
+	    background: rgb(255,73,73);
+      background: -webkit-linear-gradient(180deg, rgba(255,73,73,1) 0%, rgba(255,183,48,1) 46%, rgba(157,0,255,1) 100%);
+      background: linear-gradient(180deg, rgba(255,73,73,1) 0%, rgba(255,183,48,1) 46%, rgba(157,0,255,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff4949",endColorstr="#9d00ff",GradientType=1);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
